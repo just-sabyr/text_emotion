@@ -7,3 +7,4 @@ text = st.text_input('Enter text to analize: ')
 if st.button('Find emotions in the text'):
     st.text(te.get_emotion(text))
 
+# why commits are not being saved, or streamlit is using previous version
